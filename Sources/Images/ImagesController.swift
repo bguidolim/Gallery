@@ -33,6 +33,11 @@ class ImagesController: UIViewController {
     setup()
   }
 
+  override func viewWillLayoutSubviews() {
+    super.viewWillLayoutSubviews()
+    self.gridView.collectionView.collectionViewLayout.invalidateLayout()
+  }
+
   // MARK: - Setup
 
   func setup() {
