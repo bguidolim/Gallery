@@ -1,0 +1,5 @@
+Gallery-iOS:
+  project: Gallery.xcodeproj
+  sdks:
+  - iphonesimulator
+  - iphoneos
