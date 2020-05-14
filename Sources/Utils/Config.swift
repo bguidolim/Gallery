@@ -124,7 +124,7 @@ public struct Config {
         public static var videoTitle = "Gallery.Videos.Title".g_localize(fallback: "VIDEOS")
         public static var cameraAndGalleryPermission = "GalleryAndCamera.Permission.Info".g_localize(fallback: "Please grant access to photos and the camera.")
         public static var galleryPermission = "Gallery.Permission.Info".g_localize(fallback: "Please grant access to photos.")
-        public static var permisionButton = "Gallery.Permission.Button".g_localize(fallback: "Go to Settings")
+        public static var permissionButton = "Gallery.Permission.Button".g_localize(fallback: "Go to Settings")
         public static var emptyView = "Gallery.EmptyView.Text".g_localize(fallback: "Nothing to show")
         public static var allVideos = "Gallery.AllVideos".g_localize(fallback: "ALL VIDEOS")
     }

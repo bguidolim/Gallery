@@ -62,7 +62,7 @@ class PermissionView: UIView {
 
   func makeSettingButton() -> UIButton {
     let button = UIButton(type: .custom)
-    button.setTitle(Config.TextsConfig.permisionButton.uppercased(),
+    button.setTitle(Config.TextsConfig.permissionButton,
                     for: UIControl.State())
     button.backgroundColor = Config.Permission.Button.backgroundColor
     button.titleLabel?.font = Config.Font.Main.medium.withSize(16)
