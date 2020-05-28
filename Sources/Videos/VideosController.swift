@@ -117,8 +117,7 @@ class VideosController: UIViewController {
     let label = UILabel()
     label.textColor = UIColor.white
     label.font = Config.Font.Text.regular.withSize(12)
-    label.text = String(format: "Gallery.Videos.MaxiumDuration".g_localize(fallback: "FIRST %d SECONDS"),
-                        (Int(Config.VideoEditor.maximumDuration)))
+    label.text = String(format: Config.TextsConfig.videoMaximumDuration, (Int(Config.VideoEditor.maximumDuration)))
 
     return label
   }

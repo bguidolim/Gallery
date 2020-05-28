@@ -127,5 +127,6 @@ public struct Config {
         public static var permissionButton = "Gallery.Permission.Button".g_localize(fallback: "Go to Settings")
         public static var emptyView = "Gallery.EmptyView.Text".g_localize(fallback: "Nothing to show")
         public static var allVideos = "Gallery.AllVideos".g_localize(fallback: "ALL VIDEOS")
+        public static var videoMaximumDuration = "Gallery.Videos.MaximumDuration".g_localize(fallback: "FIRST %d SECONDS")
     }
 }
